@@ -1,0 +1,87 @@
+html{
+    background-image: url("./images/pattern-background-desktop.svg");
+	background-size: contain;
+}
+
+.container{
+    width: 25%;
+    margin-left: 37.5%;
+    background-color: white;
+    border-radius: 3%;
+    margin-top: 7%;
+
+}
+.container img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container h2{
+    text-align: center;
+}
+.container p{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.container button{
+    background-color: rgb(56,42,225);
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 10px;
+    color: white;
+}
+.container button:hover{
+    background-color: rgb(118,108,241);
+}
+
+.priceContainer img{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+
+
+
+.priceContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(248,249,254);
+    margin-bottom: 5%;
+    border-radius: 10%;
+}
+.priceContainer .changeText{
+    color: rgb(56,42,225);
+    text-decoration: underline;
+}
+.priceContainer .changeText:hover{
+    color: rgb(118,108,241);
+    text-decoration: none;
+}
+
+.prices{
+    margin-left: -25%;
+}
+.prices h4{
+    margin: 0px;
+    margin-top: 3%;
+}
+.prices p{
+    margin: 0px;
+    margin-top: 3%;
+}
+
+.cancel{
+    color: rgb(114, 116, 126);
+    padding-bottom: 5%;
+}
+.cancel:hover{
+    color: black;
+}
